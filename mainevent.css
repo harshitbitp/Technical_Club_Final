@@ -1,0 +1,234 @@
+.eventbackground{
+width:880px;
+  background:rgba(0,0,0,0.2);
+float: left;
+margin-left: 270px;
+margin-top: 10px;}
+
+.eventpic{
+background-color: white;
+width:400px;
+height: 400px; 
+margin-top: 100px;
+margin-right: 10px;
+float: left;
+border:5px solid #F8E7DC;
+
+}
+
+.eventdetail{
+ background:rgba(0,0,0,0.2);
+ color: white;
+width:400px;
+height: 400px;
+ margin-top: 100px;
+ float:left;
+ border:5px solid #F8E7DC;
+
+ }
+.zoomanim{
+	animation-name: zoomIn;
+	animation-duration: 3s;
+}
+	@-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+}
+
+
+
+
+@media all and (min-width: 230px) and (max-width: 358px)
+	{
+		.eventbackground{
+                         width:100%;
+						 background:rgba(0,0,0,0.2);
+						
+						margin-left: 0px;}
+
+	.eventpic{
+				 background:rgba(0,0,0,0.2);
+				width:280px;
+				height: 300px; 
+				margin-top: 70px;
+				margin-right: 10px;
+				float: left;
+}
+   .eventdetail{
+ background:rgba(0,0,0,0.2);
+width:280px;
+height: 300px;
+margin-top: 0px;
+
+ float:left;
+ }
+img{
+	height:298px;
+	width:280px;
+}
+.description{
+ 	font-size: 16px;
+	font-family:Architects Daughter;
+      
+	}
+	.desc{
+		font-size: 15.0px;
+	}
+
+      
+	}
+@media all and (min-width: 359px) and (max-width: 373px)
+	{
+	
+		.eventbackground{
+                         width:100%;
+					      background:rgba(0,0,0,0.2);
+						
+						margin-left: 0px;}
+
+	.eventpic{
+				 background:rgba(0,0,0,0.2);
+				width:280px;
+				height: 300px; 
+				margin-top: 70px;
+				margin-left: 20px;
+				margin-right: 10px;
+				float: left;
+}
+   .eventdetail{
+ background:rgba(0,0,0,0.2);
+width:280px;
+height: 300px;
+margin-top: 0px;
+margin-left: 20px;
+
+
+ float:left;
+ }
+img{
+	height:297px;
+	width:280px;
+}
+
+      .description{
+ 	font-size: 16px;
+		  font-family:Architects Daughter;
+      
+	}
+	.desc{
+		font-size: 15.0px;
+		font-family:Architects Daughter;
+	}
+
+	}
+@media all and (min-width: 374px) and (max-width: 412px)
+	{
+	.eventbackground{
+                         width:100%;
+						 background:rgba(0,0,0,0.2);
+						
+						margin-left: 0px;}
+
+	.eventpic{
+				 background:rgba(0,0,0,0.2);
+				width:280px;
+				height: 300px; 
+				margin-top: 70px;
+				margin-left: 20px;
+				margin-right: 10px;
+				float: left;
+}
+   .eventdetail{
+ background:rgba(0,0,0,0.2);
+width:280px;
+height: 300px;
+margin-top: 0px;
+margin-left: 20px;
+
+
+ float:left;
+ }
+img{
+	height:297px;
+	width:280px;
+}
+.description{
+ 	font-size: 16px;
+	font-family:Architects Daughter;
+      
+	}
+	.desc{
+		font-size: 15.0px;
+		font-family:Architects Daughter;
+	}
+
+	}
+	@media all and (min-width: 413px) and (max-width: 520px){
+
+		.eventbackground{
+                         width:100%;
+						 background:rgba(0,0,0,0.2);
+						
+						margin-left: 0px;}
+
+	.eventpic{
+				 background:rgba(0,0,0,0.2);
+				width:280px;
+				height: 300px; 
+				margin-top: 70px;
+				margin-left: 20px;
+				margin-right: 10px;
+				float: left;
+}
+   .eventdetail{
+ background:rgba(0,0,0,0.2);
+width:280px;
+height: 300px;
+margin-top: 0px;
+margin-left: 20px;
+
+
+ float:left;
+ }
+img{
+	height:297px;
+	width:280px;
+}
+		.description{
+ 	font-size: 16px;
+			font-family:Architects Daughter;
+      
+	}
+	.desc{
+		font-size: 15.0px;
+		font-family:Architects Daughter;
+	}
+
+
+	}
+
+</style>

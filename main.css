@@ -1,0 +1,457 @@
+*{
+    padding:0;
+   margin:0;
+   font-family:sans-serif;
+}
+
+.container{
+text-align: center;
+
+
+}
+
+
+.container span{
+
+/*   text-transform:uppercase;  */
+   display:block;
+}
+.text1{
+ color:white;
+  font-size:40px;
+  font-weight:700;
+letter-spacing:8px;
+
+animation: text 2s 1;
+}
+   .text2{
+     font-size:20px;
+      color:yellow;
+
+}    
+
+@keyframes text {
+    0%{
+             color:black;
+             margin-bottom:-40px;
+   }
+   30%{
+       letter-spacing: 25px;
+       margin-bottom: -40px;
+      }
+     85%{
+      letter-spacing: 8px;
+      margin-bottom: -40px;
+       }
+}
+
+
+#divlogo{
+                 height:200px;
+                  width:200px;
+                float:left;
+               /* background-color:white;*/}
+#clubname{
+     width:84.95%;
+   height:198px;
+    margin:0px auto;
+  background:rgba(0,0,0,0.2);
+  float:left;
+}
+.upcoming{
+  margin-top: 40px;
+}
+
+#bitid{
+                
+	
+  top: 500px;
+	color:#faed27;
+  font-family: 'Itim'
+
+}
+.eventcs{
+  width: 80%;float: left;margin-left: 10%;margin-top: 6%; background-color: white;
+}
+.eventpic{
+  style="width:40%;border:5px double blue;float: left;margin-left: 5%;"
+}
+
+
+.zoomanim{
+  animation-name: zoomIn;
+  animation-duration: 5s;
+}
+  @-webkit-keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    -webkit-transform: scale3d(0.3, 0.3, 0.3);
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+}
+
+.flipeffect{
+  animation-name: flip;
+  animation-duration: 5s;
+}
+@-webkit-keyframes flip {
+  from {
+    -webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0)
+      rotate3d(0, 1, 0, -360deg);
+    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, -360deg);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  40% {
+    -webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
+      rotate3d(0, 1, 0, -190deg);
+    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
+      rotate3d(0, 1, 0, -190deg);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  50% {
+    -webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
+      rotate3d(0, 1, 0, -170deg);
+    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
+      rotate3d(0, 1, 0, -170deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  80% {
+    -webkit-transform: perspective(400px) scale3d(0.95, 0.95, 0.95) translate3d(0, 0, 0)
+      rotate3d(0, 1, 0, 0deg);
+    transform: perspective(400px) scale3d(0.95, 0.95, 0.95) translate3d(0, 0, 0)
+      rotate3d(0, 1, 0, 0deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  to {
+    -webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0)
+      rotate3d(0, 1, 0, 0deg);
+    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, 0deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+}
+
+@keyframes flip {
+  from {
+    -webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0)
+      rotate3d(0, 1, 0, -360deg);
+    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, -360deg);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  40% {
+    -webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
+      rotate3d(0, 1, 0, -190deg);
+    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
+      rotate3d(0, 1, 0, -190deg);
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+  }
+
+  50% {
+    -webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
+      rotate3d(0, 1, 0, -170deg);
+    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 150px)
+      rotate3d(0, 1, 0, -170deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  80% {
+    -webkit-transform: perspective(400px) scale3d(0.95, 0.95, 0.95) translate3d(0, 0, 0)
+      rotate3d(0, 1, 0, 0deg);
+    transform: perspective(400px) scale3d(0.95, 0.95, 0.95) translate3d(0, 0, 0)
+      rotate3d(0, 1, 0, 0deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+
+  to {
+    -webkit-transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0)
+      rotate3d(0, 1, 0, 0deg);
+    transform: perspective(400px) scale3d(1, 1, 1) translate3d(0, 0, 0) rotate3d(0, 1, 0, 0deg);
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+  }
+}
+
+.animated.flip {
+  -webkit-backface-visibility: visible;
+  backface-visibility: visible;
+  -webkit-animation-name: flip;
+  animation-name: flip;
+}
+
+
+.marginsocialteam{
+  width: 100%;
+  height:160px;
+   background-color:black;
+  margin-top:1500px;
+}
+
+		
+  .imagehover img{
+ 
+  transition: 1s;
+}
+.imagehover img:hover{
+  transform: scale(1.1)
+}
+/*FRONT PAGE AND TEAM PAGE MEDIA QUERIES TO FIX OBJECTS STARTS*/
+
+@media screen and (max-width:1200px){
+  #clubname{
+     width:100%
+}
+#divlogo{
+     width:100%;
+    height:270px;
+}
+ /* #bitid{   POSITION:ABSOLUTE;
+          top:80%;
+	left:5%;
+	color:yellow;
+}*/
+body
+      {
+        /*height: 1600px;*/
+      }
+       
+.teamdiv
+{
+  margin-top:120px;
+} 
+
+/*.divupevent
+{
+  height:390px;
+}      */   
+
+}
+
+@media all and (min-width: 300px) and (max-width: 358px)
+  {
+ #bitid{   POSITION:ABSOLUTE;
+          top:600px;
+  
+  color:yellow;
+  }
+   .upcoming{
+    margin-top: 90px;
+  }
+  .slidershow 
+  {
+    width:300px;
+    margin-top: 200px;
+  
+}
+  .copyright{
+       width:80%;
+
+  }
+  .eventcs{
+    width:100%;
+    margin-left: 0%;
+  }
+  .eventpic{
+    width:100%;
+    margin-left: 0px;
+  }
+
+.marginsocialteam{
+  width: 100%;
+  height:160px;
+   background-color:black;
+	position:absolute;
+  margin-top: 5600px;
+}
+	 
+}
+
+
+@media all and (min-width: 359px) and (max-width: 369px)
+  {
+  #bitid{   POSITION:ABSOLUTE;
+          top:75%;
+  left:5%;
+  color:yellow;
+  }
+  .upcoming{
+    margin-top: 47px;
+  }
+  .eventcs{
+    width:100%;
+    margin-left: 0%;
+  }
+  .eventpic{
+    width:100;
+    margin-left: 0px;
+  }
+  .marginsocialteam{
+  width: 100%;
+  height:160px;
+   background-color:black;
+  margin-top: 5600px;
+}
+	   
+
+}
+@media all and (min-width: 370px) and (max-width: 385px)
+  {
+  #bitid{   POSITION:ABSOLUTE;
+          top:73%;
+  left:5%;
+  color:yellow;
+  }
+  .upcoming{
+    margin-top: 47px;
+  }
+  .eventcs{
+    width:100%;
+    margin-left: 0%;
+  }
+  .eventpic{
+    width:300px;
+    margin-left: 0px;
+  }
+  .marginsocialteam{
+  width: 100%;
+  height:160px;
+   background-color:black;
+  margin-top: 5600px;
+}
+	   
+
+}
+@media all and (min-width: 385px) and (max-width: 520px)
+  {
+  #bitid{   POSITION:ABSOLUTE;
+          top:65%;
+  left:5%;
+  color:yellow;
+  }
+  .upcoming{
+    margin-top: 47px;
+  }
+  .eventcs{
+    width:  100%;
+    margin-left: 0%;
+  }
+  .eventpic{
+    width:90%;
+    margin-left: 0px;
+  }
+  .marginsocialteam{
+  width: 100%;
+  height:160px;
+   background-color:black;
+  margin-top: 5600px;
+}
+	   
+}
+@media all and (min-width: 799px) and (max-width: 5000px)
+  {
+  *{
+    padding:0;
+   margin:0;
+   font-family:sans-serif;
+}
+
+.container{
+text-align: center;
+
+
+}
+
+
+.container span{
+
+/*   text-transform:uppercase;  */
+   display:block;
+}
+.text1{
+ color:white;
+  font-size:40px;
+  font-weight:700;
+letter-spacing:8px;
+
+animation: text 2s 1;
+}
+   .text2{
+     font-size:20px;
+      color:yellow;
+
+}    
+
+@keyframes text {
+    0%{
+             color:black;
+             margin-bottom:-40px;
+   }
+   30%{
+       letter-spacing: 25px;
+       margin-bottom: -40px;
+      }
+     85%{
+      letter-spacing: 8px;
+      margin-bottom: -40px;
+       }
+}
+
+
+#divlogo{
+                 height:200px;
+                  width:200px;
+                float:left;
+               /* background-color:white;*/}
+#clubname{
+     width:75.95%;
+   height:198px;
+    margin:0px auto;
+  background:rgba(0,0,0,0.2);
+  float:left;
+}
+
+#bitid{
+                
+  position: relative;
+  top:100px;
+  color:yellow;
+}
+}
+
+
+/*FRONT PAGE MEDIA QUERIES ENDS  OTHER MEDIA QUERIES FOR SLIDER IS IN styleslide.css*/
+
+
